@@ -31,4 +31,19 @@ print("{:.2E}".format(compute1_64(10000) - 1))
 print("{:.2E}".format(compute1_64(100000) - 1))
 ```
 Przeanalizuj powyższy przykład,    wypróbuj inne parametry dla funkcji computeOne.  
-Oblicz błąd bezwzględny i względny.
+Oblicz błąd bezwzględny i względny.  
+Błędy bezwzględne:  
+32 bit:  
+- 0.0
+- -9.30E-06
+- 5.35E-05
+- 9.90E-04
+
+64 bit:  
+- 0.0
+- 6.66E-16
+- -9.38E-14
+- -1.92E-12
+
+Błędy względne:  
+takie same
